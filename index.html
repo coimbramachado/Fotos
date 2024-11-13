@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- Adicionando o favicon -->
+    <link rel="icon" href="icons\icon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site de Fotográfia</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <!-- Adicionando o SVG diretamente na logo -->
+
+            <img src="icons/photo.svg" > </img>
+            <h3>Leticia Coimbra
+            </h3>
+        </div>
+  
+        <button class="menu-toggle" id="menu-toggle">
+            ☰
+        </button>
+
+        <ul id="menu" class="menu">
+            <li> <a href="#">Home</a> </li>
+            <li> <a href="#portfolio">Fotos</a> </li>
+            <li> <a href="#about">Sobre</a> </li>
+            <li> <a href="#preco">Preço</a> </li>
+            <li> <a href="#footer">Contato</a> </li>
+        </ul>
+    </nav>
+
+    <section class="banner">
+        <div class="texto">
+            <!-- <div class="botoes">
+                <button class="overlay">Ver Portfólio</button>
+            </div> -->
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2 class="section-title">Fotos</h2>
+        <div class="portfolio-items">
+            <div class="portfolio-item">
+                <img src="imagens/passaro.jpg" alt="Foto 1" class="Foto1">
+            </div>
+            <div class="portfolio-item">
+                <img src="imagens/lugar.jpg" alt="Foto 2">
+            </div>
+            <div class="portfolio-item">
+                <img src="imagens/OIP.jpg" alt="Foto 3">
+            </div>
+
+            <div class="portfolio-item">
+                <img src="imagens/lago.jpg" alt="Foto 3">
+            </div>
+
+        </div>
+        <!-- Adicione mais imagens do portfólio aqui -->
+        <!-- Itens 2-->
+
+        <div class="portfolio-items">
+            <div class="portfolio-item">
+                <img src="imagens/passaro.jpg" alt="Foto 1">
+            </div>
+            <div class="portfolio-item">
+                <img src="imagens/prais.jpg" alt="Foto 2">
+            </div>
+            <div class="portfolio-item">
+                <img src="imagens/OIP.jpg" alt="Foto 3">
+            </div>
+
+            <div class="portfolio-item">
+                <img src="imagens/rocha.jpg" alt="Foto 3">
+            </div>
+            <!-- Adicione mais imagens do portfólio aqui -->
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title">Sobre o Fotógrafo</h2>
+        <p>Através da magia da fotografia, somos capazes de capturar momentos efêmeros e transformá-los em eternidade.
+            Com um simples clique, o tempo é congelado, permitindo que o comum se torne extraordinário diante de nossos
+            olhos.
+
+            Através dessa arte, somos levados a enxergar a beleza oculta nas pequenas coisas do cotidiano.
+
+            A fotografia nos convida a apreciar a simplicidade e a encontrar a poesia no ordinário, revelando a
+            profundidade que muitas vezes passa despercebida. É uma forma de expressão que nos permite criar memórias
+            vívidas e contar histórias poderosas com apenas uma imagem.</p>
+    </section>
+
+
+    <section id="preco" class="precoFundo">
+        <h2 class="section-title">Preços</h2>
+        <p>Escolha o pacote que melhor atende às suas necessidades de fotografia.</p>
+
+        <div class="preco-cards">
+            <!-- Pacote 1 -->
+            <div class="preco-card">
+                <h3>Pacote Básico</h3>
+                <p>Ideal para sessões rápidas e eventos pequenos.</p>
+                <ul>
+                    <li>1 hora de sessão</li>
+                    <li>Até 30 fotos editadas</li>
+                    <li>Entrega digital via e-mail</li>
+                </ul>
+                <span class="preco">R$ 500</span>
+                <button class="btn-contato">Entrar em Contato</button>
+            </div>
+
+            <!-- Pacote 2 -->
+            <div class="preco-card">
+                <h3>Pacote Premium</h3>
+                <p>Perfeito para eventos e fotos mais elaboradas.</p>
+                <ul>
+                    <li>Até 3 horas de sessão</li>
+                    <li>Até 100 fotos editadas</li>
+                    <li>Entrega digital e em álbum impresso</li>
+                </ul>
+                <span class="preco">R$ 1.200</span>
+                <button class="btn-contato">Entrar em Contato</button>
+            </div>
+
+            <!-- Pacote 3 -->
+            <div class="preco-card">
+                <h3>Pacote VIP</h3>
+                <p>Para sessões exclusivas e coberturas completas de eventos.</p>
+                <ul>
+                    <li>Até 6 horas de sessão</li>
+                    <li>Até 200 fotos editadas</li>
+                    <li>Entrega digital, álbum impresso e fotobook</li>
+                </ul>
+                <span class="preco">R$ 2.500</span>
+                <button class="btn-contato">Entrar em Contato</button>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="footer-content">
+            <h1>Contato</h1>
+            <br>
+            <div class="social-icons">
+               
+                <a href="https://wa.me/" target="_blank" aria-label="WhatsApp">
+                    <img src="icons/whats.svg" alt="WhatsApp">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                    <img src="icons/insta.svg" alt="Instagram">
+                </a>
+            </div>
+            <br>
+            <p>© 2024 Matheus Coimbra</p>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
